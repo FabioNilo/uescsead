@@ -1,0 +1,271 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --cor-de-fonte: #130336d2;
+    --texto-descrição: #090f57ef;
+
+
+}
+
+body {
+    background-color: whitesmoke;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+* {
+    margin: auto; padding: 0;
+}
+
+
+
+.Principal {
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+
+}
+
+.navbar {
+    height: 20vh;
+    background-image: url(img/DEGRADÊ\ QUADRADO.png);
+    position: fixed;
+    
+}
+
+.navbar__imagem {
+    width: 07%;
+    margin: 0px 0px 0px 1000px;
+    display: inline;
+}
+
+.navbar__adm {
+    width: 45%;
+    display: flex;
+}
+
+.collapse {
+    display: flex;
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.nav-item {}
+.container {
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    color: var(--cor-de-fonte);
+    background-color: transparent;
+    border: 2px solid var(--cor-de-fonte);
+
+}
+
+.container__aviso {
+    font-size: 15px;
+    color: var(--cor-de-fonte);
+    
+    text-align: center;
+
+
+}
+
+.container__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00030C;
+
+}
+
+.container__imagem {
+    width: 600px;
+    margin: auto;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 95%;
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: var(--cor-de-fundo);
+    margin-bottom: 0.3em;
+
+}
+
+.descricao__texto {
+    color: var(--texto-descrição);
+    text-align: justify;
+    margin:auto
+
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispotivo__lista {
+    display: grid;
+    grid-template-columns: 33% 33% 33% 33%;
+    justify-content: center;
+    list-style-type:armenian;
+    margin: 2em 0 2em 200px;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--cor-de-fundo)
+}
+
+.lista__item {
+    font-size: 12px;
+    text-align: left;
+    color: var(--cor-de-fundo);
+    display: inline-block;
+    margin: 0 20px 0 40px
+}
+/*edição do Rodape*/
+.rodape {
+    
+    height: 60px;
+    width: auto;
+    text-align: center;
+    margin: 5em 3em;
+}
+.imagem_rodape {
+    width: 7%;
+}
+.rodape__lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+   
+}
+
+#foto_rodape{
+    text-decoration: none;
+    color:white;
+    background-color: purple;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+
+.lista__link a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2em;
+    text-align: center;
+
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 1em;
+}
+
+.rodape__logo {
+    margin: 2em;
+    background-color: #00030C;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.lista__link a:active{
+    color: purple;
+}
+
+.funcao_palestrante {
+    text-align: center;
+    font-weight: bold;
+    color: #00030C;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.90);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.funcao_palestrante_j {
+    text-align: center;
+    font-weight: bold;
+    color: #00030C;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.90);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+
+.funcao {
+    color: darkgray;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagem_silvio {
+    width: 50%;
+}
+
+.imagem_luciano {
+    width: 35%;
+
+}
+.imagem_julius {
+    width: 45%;
+    align-items: top;
+}
+
+.seminario {
+    color: darkblue;
+    font-size: 22px;
+    text-align: center;
+    inset-inline: center;
+}
+ 
+.convite_seminario {
+    width: 40%;
+    margin-top: 20px;
+}
